@@ -25,7 +25,7 @@ export default function Gallery() {
               alt=''
               className='img-fluid'
             />
-            <div className='texts mt-5 pt-5'>
+            <div className='texts'>
               <div className='content text-secondary'>
                 <h6 className='title h3'>Satisfaction </h6>
                 <p>
