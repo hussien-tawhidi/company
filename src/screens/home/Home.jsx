@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Hero />
       <Gallery/>
-      <Services />
+      {/* <Services /> */}
     </div>
   );
 }
