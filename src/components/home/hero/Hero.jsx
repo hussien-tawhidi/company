@@ -7,7 +7,7 @@ export default function Hero() {
           <img src='./images/hero-bg.png' alt='' className="img-fluid"/>
         </div>
         <div className='row'>
-          <div className='col-lg-4 col-3'>
+          <div className='col-lg-4 col-md-3'>
             <div className='sm-title'>
               <div className='sm-title-1'>
                 {" "}
@@ -20,7 +20,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className='col-lg-8 col-9'>
+          <div className='col-lg-8 col-md-9  col-sm-12'>
             <div className='lg-title'>
               <div className='titles'>
                 <h1 className='text-uppercase title'>beautiful</h1>
