@@ -3,7 +3,6 @@ export default function Hero() {
   return (
     <div className='container-lg'>
       <div className='hero'>
-  
         <div className='hero-img'>
           <img src='./images/members_map_5.png' alt='' className='img-fluid' />
         </div>
