@@ -11,6 +11,7 @@
   --md-size: 992px;
   --sm-size: 768px;
   --xsm-size: 480px;
+  --text-secondary: #6c757d;
 }
 
 [data-theme="light"] {

@@ -1,12 +1,14 @@
 .hero {
   position: relative;
+  overflow: hidden;
   .hero-img {
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 0;
     z-index: -1;
+    animation: animeRotate 60s infinite linear;
     img {
-      width: 30vw;
+      width: 70vw;
       height: auto;
       object-fit: cover;
     }
@@ -16,7 +18,6 @@
     flex-direction: column;
     justify-content: space-between;
     height: 90vh;
-    // background-color: rebeccapurple;
     position: relative;
 
     .sm-title-2,
@@ -74,6 +75,16 @@
   }
 }
 
+@keyframes animeRotate {
+  0% {
+    transform: scale(1) translateX(0);
+  }50%{
+    transform: scale(2) translateX(-20%);
+  }
+  100% {
+       transform: scale(1) translateX(0);
+  }
+}
 @media (max-width: 768px) {
   .hero {
     .hero-img {
@@ -82,7 +93,6 @@
       }
     }
     .sm-title {
-
       display: none;
     }
     .lg-title {
@@ -92,7 +102,7 @@
         }
         .title {
           font-size: 15vw;
-        letter-spacing: -2px;
+          letter-spacing: -2px;
         }
       }
       p {

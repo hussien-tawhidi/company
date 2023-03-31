@@ -2,8 +2,8 @@ import "./gallery.scss";
 
 export default function Gallery() {
   return (
-    <div className='gallery'>
-      <div className='container my-5'>
+    <div className='gallery pt-5'>
+      <div className='container my-5 pt-5'>
         <div className='image-top d-flex align-items-end justify-content-lg-between justify-content-md-between justify-content-sm-around'>
           <div className='image-1'>
             <img

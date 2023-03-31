@@ -3,22 +3,69 @@ export default function Services() {
   return (
     <div className='home-service'>
       <div className='container'>
-        <div className='single d-flex align-items-center'>
-          <div className='image-icon'>
-            <h1>1</h1>
-            {/* <img src='./images/service-image.png' alt='' /> */}
+        <div className="service-title">
+          <h5>Features</h5>
+        </div>
+        <div className='row'>
+          <div className='col-md-4 col-12'>
+            <div className='single'>
+              <div className='image-icon my-2'>
+                <img
+                  src='./images/service-image.png'
+                  alt=''
+                  className='img-fluid'
+                />
+              </div>
+              <div className='texts'>
+                <h3 className='h1 my-2'>
+                  Importance Beauty & User Interface in your websites
+                </h3>
+                <p className='text-secondary'>
+                  Beauty and well user interface are extremly important in
+                  websites. users must feel well when use your website
+                </p>
+              </div>
+            </div>
           </div>
-          <div className='texts mx-5'>
-            <h3 className='h1'>
-              Importance Beauty & User Interface in your websites
-            </h3>
-            <p className='lead'>
-              Beauty and well user interface are extremly important in websites.
-              whenever users see your website, they must feel well to visit your
-              website. if your want don't lose your user, and want to come back
-              to your website so you website must be beautiful and well user
-              interface
-            </p>
+          <div className='col-md-4 col-12'>
+            <div className='single'>
+              <div className='image-icon my-2'>
+                <img
+                  src='./images/service-image1.png'
+                  alt=''
+                  className='img-fluid'
+                />
+              </div>
+              <div className='texts'>
+                <h3 className='h1 my-2'>
+                  Importance Beauty & User Interface in your websites
+                </h3>
+                <p className='text-secondary'>
+                  Beauty and well user interface are extremly important in
+                  websites. users must feel well when use your website
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-4 col-12'>
+            <div className='single'>
+              <div className='image-icon my-2'>
+                <img
+                  src='./images/service-image2.png'
+                  alt=''
+                  className='img-fluid'
+                />
+              </div>
+              <div className='texts'>
+                <h3 className='h1 my-2'>
+                  Importance Beauty & User Interface in your websites
+                </h3>
+                <p className='text-secondary'>
+                  Beauty and well user interface are extremly important in
+                  websites. users must feel well when use your website
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

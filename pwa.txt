@@ -1,0 +1,4 @@
+manifest.json => public folder
+
+service-worker.js & serviceWorkerRegistration.js =>src 
+and import these in index.js

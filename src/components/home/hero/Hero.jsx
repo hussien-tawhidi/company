@@ -3,8 +3,9 @@ export default function Hero() {
   return (
     <div className='container-lg'>
       <div className='hero'>
+  
         <div className='hero-img'>
-          <img src='./images/hero-bg.png' alt='' className="img-fluid"/>
+          <img src='./images/members_map_5.png' alt='' className='img-fluid' />
         </div>
         <div className='row'>
           <div className='col-lg-4 col-md-3'>
