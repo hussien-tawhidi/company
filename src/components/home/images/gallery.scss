@@ -1,0 +1,27 @@
+.gallery {
+  .image-top {
+    .image-1 {
+      width: 50vw;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -15rem;
+        right: 0;
+        height: 50vh;
+        width: 35vw;
+        background-color: rgba(255, 0, 55, 0.6);
+        z-index: 2;
+      }
+    }
+  }
+  .image-bottom {
+    .image-2 {
+      width: 20vw;
+      margin-right: 3vw;
+    }
+    .image-3 {
+      width: 50vw;
+    }
+  }
+}

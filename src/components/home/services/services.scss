@@ -1,0 +1,30 @@
+.home-service {
+  .single {
+    .image-icon {
+      h1 {
+        font-size: 800px;
+        font-weight: 600;
+        background: #2c2c2c; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to top,
+          #464646 80%,
+          var(--text-color)
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to top,
+          #46464600 30%,
+
+          var(--text-color)
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+    }
+    .texts {
+      h3 {
+        font-size: 50px;
+      }
+    }
+  }
+}
