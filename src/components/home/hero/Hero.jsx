@@ -1,11 +1,11 @@
 import "./hero.scss";
 export default function Hero() {
   return (
-    <div className='container-lg'>
-      <div className='hero'>
-        <div className='hero-img'>
-          <img src='./images/members_map_5.png' alt='' className='img-fluid' />
-        </div>
+    <div className='hero'>
+      <div className='hero-img'>
+        <img src='./images/members_map_5.png' alt='' className='img-fluid opacity-50' />
+      </div>
+      <div className='container-lg'>
         <div className='row'>
           <div className='col-lg-4 col-md-3'>
             <div className='sm-title'>
